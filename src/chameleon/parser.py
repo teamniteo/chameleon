@@ -140,11 +140,7 @@ def unpack_attributes(attributes, namespace, default, restricted_namespace):
             try:
                 ns = namespace[prefix]
             except KeyError:
-                if restricted_namespace:
-                    raise KeyError(
-                        "Undefined namespace prefix: %s." % prefix)
-                else:
-                    ns = default
+                ns = default
         else:
             ns = default
         namespaced[ns, name] = value
