@@ -1,3 +1,7 @@
+We're hiring!
+=========
+At Niteo we regularly contribute back to the Open Source community. If you do too, we'd like to invite you to `join our team <https://niteo.co/careers>`_!
+
 Chameleon
 =========
 
@@ -28,3 +32,4 @@ Notes
 
 .. [1] This software is licensed under the `Repoze
        <http://repoze.org/license.html>`_ license.
+
